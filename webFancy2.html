@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bbody{
+            background-color: rgb(22, 22, 48);
+            background-size: cover;
+            background-image: url(fancyfrontBack.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: scroll ;
+            margin-top: 10px;
+            height: 100vh;
+            width: 100%;
+            
+            
+        }
+        body{
+            background-color: rgb(4, 4, 71);
+        }
+        
+        .container{
+            display: grid;
+            background-color: white;
+            padding: 10px;
+            gap: 10px;
+            grid-template-columns: auto auto auto auto;
+            
+           
+    }
+    .item1{
+        grid-column-start: 1;
+        background-color: white;
+        
+        color: white(214, 181, 245);
+        font-size: large;
+        font-weight: 600;
+        
+    }
+    .item2{
+        grid-column: 2/4;
+        background-color: white;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        
+    }
+    .item3{
+        grid-column-start: 4;
+        background-color: white;
+        text-align: right;
+        
+        
+    }
+    a{
+        text-transform: none;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    button{
+        background-color: rgb(81, 81, 240);
+        color: white;
+        border-radius: 30px;
+        text-align: center;
+        border-color: white;
+        /* margin-left: 20px;
+        margin-top: 12px; */
+        width: 200px;
+        height: 50px;
+        margin-top: 3px;
+        /* margin-right: 0px; */
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="start">
+    <div class="container">
+        <div class="item1"><img src="D:\Desktop\TechnoFrontend\Task-HTML\star.png" style="width: 50px; margin-left: 0;">      Fancy</div>
+        <div class="item2">
+            <a href="">Home</a>
+    <a href="webFancyAbout.html" target="_blank">About</a>
+        <a href="webFancyTeam.html" target="_blank">Team</a>
+    <a href="webFancyContact.html" target="_blank">Contact</a>
+        </div>
+        <div class="item3">
+            <button>Get Started</button>
+        </div>
+    </div>
+    </div>
+    <div class="bbody"></div>
+</body>
+</html>
+
+
